@@ -1,0 +1,56 @@
+body {
+	background-image: url("https://thumbs.dreamstime.com/z/vector-abstract-red-wavy-background-wallpaper-brochure-design-white-ai-illustrations-121826999.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+a {
+	font-size: 250%;
+}
+p {
+	font-family: 'Caveat', cursive;
+	color: darkblue;
+}
+h1 {
+	font-family: 'Handjet', cursive;
+	font-size: 200%;
+	color: darkred;
+}
+body #aaa {
+	background-color: red;
+}
+#bca {
+	color: lightcyan;
+    font-family: 'Handjet', cursive;
+    font-size: 200%;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  padding: 8px;
+  background-color: darkblue;
+  color: white;
+}
+img {
+	border: 10px, double, lightcoral;
+
+}
+
+#cde {
+	font-size: 200%;
+}
+#med{
+	background-color: black;
+}

@@ -126,8 +126,8 @@ body{
 			border-radius: 2px;
 			padding-inline: 10px;
 			position: fixed;
-			top: 35px;
-			left: 36.3%;
+			margin-top: 35px;
+			margin-left: 23em;
 			background-color: red;
 			font-size: 30px;
 			color: #fff;
@@ -146,8 +146,8 @@ body{
 			font-size: 30px;
 			text-decoration: none;
 			position: fixed;
-			top: 35px;
-			left: 42%;
+			margin-top: 35px;
+			margin-left: 27em;
 			transition: 0.4s;
 		}
 		#Info:hover{
@@ -166,8 +166,8 @@ body{
 			font-size: 30px;
 			text-decoration: none;
 			position: fixed;
-			top: 35px;
-			left: 46.4%;
+			margin-top: 35px;
+			margin-left: 30em;
 			transition: 0.4s;
 		}
 		#Contact:hover{
@@ -186,8 +186,8 @@ body{
 			font-size: 30px;
 			text-decoration: none;
 			position: fixed;
-			top: 35px;
-			left: 53.2%;
+			margin-top: 35px;
+			margin-left: 34.2em;
 			transition: 0.4s;
 		}
 		#Gallery:hover{
