@@ -1,0 +1,21 @@
+body{
+	background-color: black;
+	margin-left: 2em;
+}
+
+p{
+	color: white;
+}
+h1{
+	color: red;
+}
+h3{
+	color: orange;
+}
+h6{
+	color: yellow;
+}
+*{
+	color: white;
+	font-size: 40px;
+}
