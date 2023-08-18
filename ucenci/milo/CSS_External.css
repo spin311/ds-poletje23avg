@@ -1,0 +1,22 @@
+* {
+	font-family: 'Handjet', cursive;
+	font-size: 150%;
+	margin: 30px;
+}
+body {
+	background-image: url(./CuteKitten.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#First_P {
+	font-family: 'Caprasimo', cursive;
+	border: solid 0.0000001px;
+	padding: 30px 10px;
+	background-color: rgb(144, 132, 111, 0.7);
+}
+#Second_P {
+	font-family: 'Roboto', sans-serif;
+	border: solid, 0.0000001px;
+	padding: 30px 10px;
+	background-color: rgb(144, 132, 111, 0.7);
