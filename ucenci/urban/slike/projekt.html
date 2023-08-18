@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projekt</title>
+<link rel="icon" type="text/css" href="slike/logo.png">
+<script type="text/javascript">
+    function displayNextImage() {
+    x = (x === images.length - 1) ? 0 : x + 1;
+    document.getElementById("img").src = images[x];
+    }
+
+    function displayPreviousImage() {
+    x = (x <= 0) ? images.length - 1 : x - 1;
+    document.getElementById("img").src = images[x];
+    }
+    function startTimer() {
+    setInterval(displayNextImage, 1000);
+    }
+
+    var images = [], x = -1;
+    images[0] = "slike/lopar.png";
+    images[1] = "slike/lopar2.png";
+
+</script>
+<link rel="icon" type="image/jfif" href="slike/icona2.jfif">
+<style type="text/css">
+
+body{
+font-family: sans-serif;
+background: url(https://i.pinimg.com/736x/cf/10/1a/cf101adcbfaad60c3dd3fda82384ad64--rackets.jpg) no-repeat center center fixed;
+background-size: cover;
+font-weight: bold;
+font-size: xx-large;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  border: 2px dotted;
+  background-color: green;:
+
+}
+.clas{
+color: darkred;
+font-weight: 800;
+
+
+}
+.rdeca{
+color: black;
+}
+.sredina {
+margin-right: auto;
+display: block;
+
+
+}
+#nt1{
+font-family:  sans-serif;
+font-weight: 900px;
+text-shadow: 3px 2px 5px darkblue;
+}
+
+#desno{
+float: left;
+display: inline-block;
+
+
+}
+#youtube{
+  margin-top: auto;
+}
+
+
+#pojavi{
+transition: 1s;
+opacity: 0;
+}
+#racket1{
+transition: 1s;
+opacity: 0;
+}
+#racket2{
+transition: 1s;
+opacity: 0;
+}
+#racket2:hover{
+transition: 1s;
+opacity: 1;
+}
+#racket1:hover{
+transition: 1s;
+opacity: 1;
+
+}
+#pojavi:hover{
+opacity: 1;
+transition: 1s;
+}
+#slika{
+transition: 1s;
+opacity: 0;
+}
+#lopar2{
+  opacity: 0;
+}
+#lopar2:hover{
+  opacity: 1;
+  transition: 1s;
+}
+#img{
+   height: 100;
+    width: auto;
+    opacity: 0;
+}
+   #img:hover{
+    height: 100;
+    width: auto;
+    opacity: 1;
+    transition: 1s;
+  }
+  #net{
+    margin-right: 1px;
+  } 
+#slika:hover{
+transition: 1s;
+opacity: 1;
+}
+</style>
+
+</head>
+<body onload = "startTimer(3)">
+<body onload = "startTimer(1)">
+    
+  </body>
+<h1 style="text-align: center;" id="nt1">Namizni tenis</h1>
+<p style="color: black;">Meni je namizni tenis postal zelo všeč in ker ga veliko ljudi ne pozna Vam ga bom predstavil.
+<br>
+<div style="display:table">
+  <div style="display:table-cell; vertical-align:top;">
+<ol>
+
+<li class="clas">Fan Zhendong</li>
+<li class="clas">Ma Long</li>
+<li class="clas">LIANG jingkun</li>
+<li class="clas">Truls Moregard</li>
+<li class="clas">Hugo Calderano</li>
+<li class="clas">Lin-Yun-Ju</li>
+<li class="clas">Darko Jorgič</li>
+<li class="clas">Tomokazu Harimoto</li>
+<li class="clas">Dimitrij Ovtcharov</li>
+</div>
+  <div style="display:table-cell;float:right; margin-left: 100px;">
+  <a id="malong" href="https://worldtabletennis.com/rankings" target="_blank"><img src="https://www.chinadailyhk.com/attachments/image/31/178/193/579487_268924/579487_268924_800_auto_jpg.jpg"></a>
+  </div>
+</div>
+</ol >
+<div class="rdeca">Prvi na lestvici je Fan Zhendong, ki se bori za prvo mesto,ker mu je Ma long zelo blizu igralec na svetu. Imamo pa tudi 3 slovenske igralce, in  to so.</div></p>
+<ol>
+<li class="clas">Darko Jorgič</li>
+<li class="clas">Bojan Tokič</li>
+<li class="clas">Deni Kožul</li>
+</ol>
+<div class="rdeca">To leto se je Darko uvrstil med top 10 Danes je sedmi!</div>
+</p>
+
+
+<div id="desno"><a  href="https://www.igre123.com/igra/table-tennis-world-tour" target="_blank"><img id="pojavi" width="600" height="auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJNHYkZqvbZH78V7AcUV5dK2g0aYwdXKRx6Q&usqp=CAU"></a>Na levi pa je še skrita slika in če klikneš nanjo te vrže na igre123</div>
+<iframe id="youtube" width="600" height="300" height="600" src="https://www.youtube.com/embed/yrFQCOcTlFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<audio controls>
+<source src="audio/muska.mp3" type="audio/mp3">
+</audio>
+
+  <div id="id1" class="class">   
+  <img id="img" height="500" width="auto"src="slike/lopar.png">
+  <img id="net"width="300" height="auto"src="slike/net.png"> 
+  <img id="lopar2" height="500" width="auto"src="slike/lopar21.webp">
+
+<br>
+<br>
+
+
+
+<div style="display: block; margin-top: 600px;">
+
+
+</body>
+</html>

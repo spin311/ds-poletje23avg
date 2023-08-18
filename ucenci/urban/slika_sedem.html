@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Slika ena</title>
+	<style type="text/css">
+		body {
+			background: black;
+			overflow-x: hidden;
+		}
+		#slika{
+			display: inline;
+			border-radius: 10px;
+			width: 1000px;
+			height: 900px;
+			margin-left: 100px;
+			cursor: zoom-in;
+			animation: click ease-in 1s;
+		}
+		@keyframes click{
+			0%{
+				transform: scale(4.0);
+			}
+			100%{
+				transform: scale(1.0);
+			}
+		}
+		#slika_ena{
+			margin-left: 200px;
+			display: inline;
+			margin-top: -1000px;
+			width: 600px;
+		}
+		#Button{
+			border-radius: 4px;
+			margin-top: -1000px;
+			color: red;
+			background-color: lightblue;
+			cursor: pointer;
+			width: 100px;
+			height: 50px;
+		}
+		#Button:hover{
+			cursor: pointer;
+			transition: 1s;
+			border-radius: 6px;
+			background-color: darkblue;
+		}
+		#button{
+			margin-top: 20px;
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			color: red;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		#button:hover{
+			cursor: pointer;
+			width: 50px;
+			height: 50px;
+			transition:0.5s;
+		}
+	</style>
+		
+</head>
+<body>
+	<center><img id="slika" src="slike/eckiart13.jpg"></center>
+	<center>
+		<a id="button" href="Gallery.html">
+			<button id="Button">Pojdi nazaj</button>
+		</a>
+	</center>
+
+</body>
+</html>
