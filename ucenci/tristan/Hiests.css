@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:black;
+}
+body {
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto Mono', monospace;
+background-image:url("./slike/161209.jpg")
+}
+p{color:white;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto+Mono:wght@200&display=swap');
+
+img{
+ border:2px solid whitesmoke;
+
+
+
+  
+}
